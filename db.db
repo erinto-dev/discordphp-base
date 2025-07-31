@@ -5,7 +5,7 @@ CREATE TABLE `accounts` (
   `email_verified` int DEFAULT '0',
   `email_verified_at` datetime DEFAULT NULL,
   `name` varchar(24) DEFAULT 'N/A',
-  `password` varchar(64) DEFAULT 'N/A',
+  `password` varchar(64) NOT NULL,
   `phone` int DEFAULT NULL,
   `IP` varchar(17) DEFAULT 'N/A',
   `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
