@@ -1,0 +1,24 @@
+{
+    "name": "erin/bot_vendas",
+    "description": "Um bot que utiliza serviços de diferentes bancos para utilização de pagamentos",
+    "type": "project",
+    "require": {
+        "php-di/php-di": "dev-master",
+        "team-reflex/discord-php": "dev-master",
+        "symfony/dotenv": "8.0.x-dev",
+        "vlucas/phpdotenv": "^5.6@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bot\\": "src/Bot/",
+            "App\\": "src/App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "erin",
+            "email": "botheritons2005@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
